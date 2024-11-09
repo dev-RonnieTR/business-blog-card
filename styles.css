@@ -15,10 +15,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: #F2F5F9;
 }
 
 main {
     width: min(100%, 23.5rem);
+    background-color: #FFFFFF;
 }
 
 #worker {
