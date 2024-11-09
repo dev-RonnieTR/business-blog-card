@@ -35,9 +35,20 @@ main {
     width: 100%;
 }
 
+#description {
+    margin: 0 2rem 1.5rem;
+}
+
+hr {
+    border: 0;
+    height: 0.0625rem;
+    background-color: #F2F5F9;
+}
+
 #worker {
     display: flex;
     gap: 1rem;
+    margin: 1.5rem 2rem;
 }
 
 .avatar {
