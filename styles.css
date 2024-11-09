@@ -21,6 +21,15 @@ main {
     width: min(100%, 23.5rem);
 }
 
+#worker {
+    display: flex;
+    gap: 1rem
+}
+
+.avatar {
+    width: 37px;
+}
+
 /* Typography */
 
 h1 {
@@ -31,8 +40,4 @@ h1 {
 
 h2, p {
     font-size: 1rem;
-}
-
-#worker {
-    display: flex;
 }
