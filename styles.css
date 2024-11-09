@@ -49,12 +49,26 @@ hr {
 
 #worker {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     gap: 1rem;
     margin: 1.5rem 2rem;
 }
 
 .avatar {
-    width: 37px;
+    border-radius: 100%;
+    background-color: #F2F5F9;
+
+    height: 45px;
+    flex: 0 0 45px; /*Ensures element won't change size*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; /*Ensures img inside can be centered*/
+}
+
+.avatar img {
+    border-radius: 100%;
 }
 
 /* Typography */
