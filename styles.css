@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    width: min(100%, 23.5rem);
+    width: min(95%, 26rem);
     background-color: #FFFFFF;
     border-radius: 0.7rem;
     overflow: hidden;
