@@ -8,6 +8,18 @@ html {
     font-family: "Lato", sans-serif;
 }
 
+body {
+    width: 100vw;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: min(100%, 23.5rem);
+}
 
 /* Typography */
 
@@ -19,4 +31,8 @@ h1 {
 
 h2, p {
     font-size: 1rem;
+}
+
+#worker {
+    display: flex;
 }
