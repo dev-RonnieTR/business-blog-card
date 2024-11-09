@@ -24,9 +24,20 @@ main {
     background-color: #FFFFFF;
 }
 
+#hero {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 #worker {
     display: flex;
-    gap: 1rem
+    gap: 1rem;
 }
 
 .avatar {

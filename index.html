@@ -26,39 +26,42 @@
 
   <body>
     <main>
-      <picture>
-        <source
-          srcset="
-            resources/avif/hero-image.avif   209w,
-            resources/avif/hero-image-1.avif 418w
-          "
-          type="image/avif"
-          sizes="100%"
-        />
-        <source
-          srcset="
-            resources/webp/hero-image.webp   209w,
-            resources/webp/hero-image-1.webp 418w
-          "
-          type="image/webp"
-          sizes="100%"
-        />
-        <source
-          srcset="
-            resources/jpg/hero-image.jpg   209w,
-            resources/jpg/hero-image-1.jpg 418w
-          "
-          type="image/jpeg"
-          sizes="100%"
-        />
-        <img
-          src="resources/jpg/hero-image-1.jpg"
-          alt="Two colleagues sharing a cup of coffee"
-          loading="lazy"
-          width="100%"
-          height="auto"
-        />
-      </picture>
+      <section id="hero">
+        <picture>
+          <source
+            srcset="
+              resources/avif/hero-image.avif   209w,
+              resources/avif/hero-image-1.avif 418w
+            "
+            type="image/avif"
+            sizes="100%"
+          />
+          <source
+            srcset="
+              resources/webp/hero-image.webp   209w,
+              resources/webp/hero-image-1.webp 418w
+            "
+            type="image/webp"
+            sizes="100%"
+          />
+          <source
+            srcset="
+              resources/jpg/hero-image.jpg   209w,
+              resources/jpg/hero-image-1.jpg 418w
+            "
+            type="image/jpeg"
+            sizes="100%"
+          />
+          <img
+            src="resources/jpg/hero-image-1.jpg"
+            alt="Two colleagues sharing a cup of coffee"
+            loading="lazy"
+            width="100%"
+            height="auto"
+          />
+        </picture>
+        <img src="resources/svg/white-overlay.svg" alt="" class="overlay">
+      </section>
 
       <section id="description">
         <h1>Perfect solution for small business</h1>
